@@ -1,4 +1,6 @@
+
 ```
-# copy our config files to our home directoy
-cp .zshrc .tmux.conf ~/
+# append our vim related configs to our existing config files
+cat .zshrc >> ~/.zshrc
+cat .tmux.conf >> ~/.tmux.conf
 ```
