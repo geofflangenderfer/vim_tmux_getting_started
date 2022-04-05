@@ -1,4 +1,13 @@
 # Install
+## tmux
+```
+# mac
+brew install tmux
+# ubuntu
+sudo apt install tmux
+# amazon linux
+sudo yum install tmux
+```
 ```
 # append our vim related configs to our existing config files
 cat .zshrc >> ~/.zshrc
